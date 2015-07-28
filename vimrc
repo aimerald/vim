@@ -20,6 +20,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 "NERDTree -> 編集中にディレクトリ一覧を表示してくれるチートちゃん(・∀・)
 NeoBundle "scrooloose/nerdtree"
+autocmd VimEnter * execute 'NERDTree'
 
 "｛｝とか（）を自動的に閉じてくれるおщ(ﾟдﾟщ)ｶﾓｰﾝ
 NeoBundle "Townk/vim-autoclose"
