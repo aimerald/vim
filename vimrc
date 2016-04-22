@@ -16,6 +16,9 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " neobundle自体をneobundleで管理
 NeoBundleFetch 'Shougo/neobundle.vim'
 
+" CRYSTALのシンタックス
+NeoBundle "rhysd/vim-crystal"
+
 "ここに新しいプラグインを追加していくよ(・∀・)"
 
 "NERDTree -> 編集中にディレクトリ一覧を表示してくれるチートちゃん(・∀・)
@@ -39,6 +42,13 @@ NeoBundle 'kchmck/vim-coffee-script'
 
 "JADE Syantax
 NeoBundle 'digitaltoad/vim-jade'
+
+"Vim go
+NeoBundle 'fatih/vim-go'
+NeoBundle 'vim-jp/vim-go-extra'
+
+"QML
+NeoBundle 'peterhoeg/vim-qml'
 
 "SASS
 NeoBundle 'AtsushiM/sass-compile.vim'
