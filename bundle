@@ -1,5 +1,5 @@
 #!/bin/bash
 
 mkdir -p ~/.vim/bundle
-cp vimrc 	vimrc ~/.vimrc
+cp vimrc  ~/.vimrc
 git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
