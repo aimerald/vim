@@ -22,7 +22,7 @@ NeoBundle "rhysd/vim-crystal"
 "ここに新しいプラグインを追加していくよ(・∀・)"
 
 "NERDTree -> 編集中にディレクトリ一覧を表示してくれるチートちゃん(・∀・)
-"NeoBundle "scrooloose/nerdtree"
+NeoBundle "scrooloose/nerdtree"
 "autocmd VimEnter * execute 'NERDTree'
 
 "UndoTreeを入れる
