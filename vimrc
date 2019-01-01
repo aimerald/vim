@@ -51,8 +51,8 @@ let g:airline_theme = 'molokai'
 
 " Define dictionary.
 let g:neocomplcache_dictionary_filetype_lists = {
-			\ 'default' : ''
-			\ }
+		\ 'default' : ''
+		\ }
 
 "｛｝とか（）を自動的に閉じてくれるおщ(ﾟдﾟщ)ｶﾓｰﾝ
 NeoBundle "Townk/vim-autoclose"
@@ -76,10 +76,10 @@ let g:ctrlp_root_markers = ['Gemfile', 'pom.xml', 'build.xml']
 let g:ctrlp_max_height = 20
 " 無視するディレクトリ
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
-  \ 'file': '\v\.(exe|so|dll)$',
-  \ 'link': 'some_bad_symbolic_links',
-  \ }
+\ 'dir':  '\v[\/]\.(git|hg|svn)$',
+\ 'file': '\v\.(exe|so|dll)$',
+\ 'link': 'some_bad_symbolic_links',
+\ }
 
 " Elixir
 NeoBundle "elixir-lang/vim-elixir"
@@ -107,6 +107,9 @@ filetype plugin indent on
 " 未インストールのプラグインがある場合、インストールするかどうかを尋ねてくれるようにする設定
 " 毎回聞かれると邪魔な場合もあるので、この設定は任意です。
 NeoBundleCheck
+
+" キーバインドはここから下
+noremap ff :GFiles
 
 "-------------------------
 " End Neobundle Settings.
