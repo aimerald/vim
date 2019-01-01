@@ -57,6 +57,11 @@ let g:neocomplcache_dictionary_filetype_lists = {
 "｛｝とか（）を自動的に閉じてくれるおщ(ﾟдﾟщ)ｶﾓｰﾝ
 NeoBundle "Townk/vim-autoclose"
 
+" fzfはバリはやのhelm-fileって感じ。使うにはbrew install fzfが必要だ
+set rtp+=/usr/local/opt/fzf
+NeoBundle 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+NeoBundle 'junegunn/fzf.vim'
+
 " ctrlpはhelmっぽいなにかの予感
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 " キャッシュディレクトリ
