@@ -37,6 +37,9 @@ NeoBundle 'Shougo/denite.nvim'
 " お行儀の良いコーディングしないとおこるやつ
 NeoBundle 'w0rp/ale'
 
+" Git-gutter
+NeoBundle "airblade/vim-gitgutter"
+
 " おしゃれPowerLine
 NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'vim-airline/vim-airline-themes'
@@ -105,6 +108,9 @@ NeoBundleCheck
 
 " キーバインドはここから下
 noremap ff :GFiles
+
+" 起動時にgit-gutterを起動しておく
+autocmd VimEnter * execute 'GitGutterEnable'
 
 "-------------------------
 " End Neobundle Settings.
