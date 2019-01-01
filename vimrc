@@ -42,6 +42,13 @@ nnoremap <silent> ,uf :<C-u>UniteWithBufferDir -buffer-name=files file<CR>
 nnoremap <silent> ,ur :<C-u>Unite -buffer-name=register register<CR>
 nnoremap <silent> ,uu :<C-u>Unite file_mru buffer<CR>
 
+" おしゃれPowerLine
+NeoBundle 'vim-airline/vim-airline'
+NeoBundle 'vim-airline/vim-airline-themes'
+let g:airline_powerline_fonts = 1
+set laststatus=2
+let g:airline_theme = 'molokai'
+
 " Define dictionary.
 let g:neocomplcache_dictionary_filetype_lists = {
 			\ 'default' : ''
@@ -68,11 +75,6 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\v\.(exe|so|dll)$',
   \ 'link': 'some_bad_symbolic_links',
   \ }
-
-" インデントの深さをい感じに表示してくれる
-NeoBundle 'nathanaelkane/vim-indent-guides'
-let g:indent_guides_enable_on_vim_startup = 1
-let g:indent_guides_auto_colors = 1
 
 " Elixir
 NeoBundle "elixir-lang/vim-elixir"
