@@ -91,6 +91,9 @@ NeoBundle 'tpope/vim-endwise'
 "syntax + 自動compile
 NeoBundle 'kchmck/vim-coffee-script'
 
+" Git操作関連
+NeoBundle 'tpope/vim-fugitive'
+
 call neobundle#end()
 
 " Required:
