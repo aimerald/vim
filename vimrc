@@ -34,6 +34,9 @@ NeoBundle "mbbill/undotree"
 " Uniteを超えるdenite
 NeoBundle 'Shougo/denite.nvim'
 
+" お行儀の良いコーディングしないとおこるやつ
+NeoBundle 'w0rp/ale'
+
 " おしゃれPowerLine
 NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'vim-airline/vim-airline-themes'
