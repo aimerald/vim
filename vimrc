@@ -8,6 +8,7 @@ set shiftwidth=2
 set smartindent
 colorscheme molokai
 set t_Co=256
+set backspace=indent,eol,start
 
 "---------------------------
 " Start Neobundle Settings.
